@@ -11,8 +11,8 @@ class School
   
   #part 3
   def add_student(student_name, grade)
-    @roster[grade] = []
-    @roster[grade] << student_name
+    @roster[grade] = [] #establish that this key will have an array value
+    @roster[grade] << student_name #put items in this array value for this key
   end
 
 end
