@@ -7,10 +7,7 @@ class School
     @name = name
   end
   
-  #part 2
-  def roster #reader/getter method 
-    @roster = {}
-  end
+
   
   #part 3
   def add_student(student_name, grade)
