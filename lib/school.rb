@@ -19,6 +19,11 @@ class School
     end
   end
 
+  #part 4
+  def
+  
+  end
+
 end
 
 
