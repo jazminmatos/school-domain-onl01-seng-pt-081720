@@ -24,6 +24,9 @@ class School
     @roster[grade_number]
   end
 
+  #part 5
+  
+
 end
 
 
