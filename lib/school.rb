@@ -20,8 +20,8 @@ class School
   end
 
   #part 4
-  def
-  
+  def grade
+    
   end
 
 end
