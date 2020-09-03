@@ -10,12 +10,12 @@ class School
 
   
   #part 3
-  def add_student(student_name, grade)
-    if @roster.key?(grade) #grade exists
-      @roster[grade] << student_name
+  def add_student(student_name, grade_level)
+    if @roster.key?(grade_level) #grade exists
+      @roster[grade_level] << student_name
     else  
-      @roster[grade] = [] #establish that this key will have an array value
-      @roster[grade] << student_name #put items in this array value for this key
+      @roster[grade_level] = [] #establish that this key will have an array value
+      @roster[grade_level] << student_name #put items in this array value for this key
     end
   end
 
