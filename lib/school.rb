@@ -20,7 +20,7 @@ class School
   end
 
   #part 4
-  def grade
+  def grade(grade_number)
     
   end
 
