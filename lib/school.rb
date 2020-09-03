@@ -11,7 +11,7 @@ class School
   
   #part 3
   def add_student(student_name, grade)
-    if #grade exists
+    if @roster.key?(grade) #grade exists
       @roster[grade] << student_name
     else  
       @roster[grade] = [] #establish that this key will have an array value
